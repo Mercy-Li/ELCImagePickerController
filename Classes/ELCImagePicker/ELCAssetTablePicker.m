@@ -119,7 +119,7 @@
                                                       animated:NO];
             }
             
-            [self.navigationItem setTitle:self.singleSelection ? NSLocalizedString(@"Pick Photo", nil) : NSLocalizedString(@"Pick Photos", nil)];
+            [self.navigationItem setTitle:NSLocalizedString(@"选择图片", nil)];
         });
     }
 }
